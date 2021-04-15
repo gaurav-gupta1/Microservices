@@ -1,0 +1,69 @@
+2021-04-15 05:14:24 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.10 on DESKTOP-035LUIG with PID 1348 (C:\Users\Lenovo\Documents\Microservices Project Udemy\microservices-demo\twitter-to-kafka-service\target\classes started by Lenovo in C:\Users\Lenovo\Documents\Microservices Project Udemy\microservices-demo)
+2021-04-15 05:14:24 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-04-15 05:14:24 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.132 seconds (JVM running for 1.836)
+2021-04-15 05:14:24 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2021-04-15 05:14:24 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2021-04-15 05:23:32 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.10 on DESKTOP-035LUIG with PID 8836 (C:\Users\Lenovo\Documents\Microservices Project Udemy\microservices-demo\twitter-to-kafka-service\target\classes started by Lenovo in C:\Users\Lenovo\Documents\Microservices Project Udemy\microservices-demo)
+2021-04-15 05:23:32 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-04-15 05:23:33 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.15 seconds (JVM running for 1.844)
+2021-04-15 05:23:33 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2021-04-15 05:23:33 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2021-04-15 05:23:33 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices!
+2021-04-15 06:04:08 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.10 on DESKTOP-035LUIG with PID 8156 (C:\Users\Lenovo\Documents\Microservices Project Udemy\microservices-demo\twitter-to-kafka-service\target\classes started by Lenovo in C:\Users\Lenovo\Documents\Microservices Project Udemy\microservices-demo)
+2021-04-15 06:04:08 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-04-15 06:04:08 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.147 seconds (JVM running for 1.869)
+2021-04-15 06:04:08 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2021-04-15 06:04:08 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2021-04-15 06:04:08 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices!
+2021-04-15 06:04:08 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2021-04-15 06:04:08 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2021-04-15 06:04:12 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
+2021-04-15 06:04:12 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.
+2021-04-15 06:04:12 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @isardasorensen: Beautiful starburst #sunset & spring blossoms today in #NYC. https://t.co/pYwumO7Ulw
+2021-04-15 06:04:12 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Koreaboo: Here Are 5 Songs Recommended By PENTAGON’s Kino To Help You Get Into The Vibe Of Spring
+
+https://t.co/yEUWpgtR7D
+2021-04-15 06:04:13 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @PEACHYBLACKG0RL: this how i want spring to feel https://t.co/B0wmJQCgWV
+2021-04-15 06:04:14 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Fr0styisCrystal: Spring art by @/RMXisBored :3 https://t.co/PB4hYAhEpW
+2021-04-15 06:04:14 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @bigempressnergy: full moon in scorpio bout to let out all the secrets. spring cleaning for all your dirty laundry.
+2021-04-15 06:04:15 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Foxy_joy_: Hualian out on a cute spring date 🌸💕
+
+#TGCF #天官赐福 #hualian https://t.co/mt2MYMsSDn
+2021-04-15 06:04:15 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Bushrangers new style is probably the second best next to spring
+2021-04-15 06:04:15 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @dearbabysoul: 160414 cherry blossom girls spring fairies lovelyz iconic intro for kcon japan 🌸
+
+#LOVELYZ #러블리즈 #BABYSOUL #베이비소울 #JIAE #…
+2021-04-15 06:04:15 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @badestoutfit: spring nails inspo https://t.co/6McwbM8GNN
+2021-04-15 06:04:16 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Army097l: Si no subimos el syrean BTS sera el segundo grupo coreano con mas canciones pasados los 300 M y 400M de stream 
+
+DNA -377,536…
+2021-04-15 06:04:16 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @haiironousagi This is our spring - moody weather and lots of wind. In a couple of days we’re expecting 20’C 😅 you never know
+2021-04-15 06:04:16 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @wscstrength: Congratulations to CJ Neumann on being named Male Athlete of the Month! CJ has been balancing a very full spring schedule…
+2021-04-15 06:04:16 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @CELINEXXCHANEL: spring with Jennie and Lisa 🌿 https://t.co/FUs2KZOn1s
+2021-04-15 06:04:16 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @MarilynTatman Ill be camping not far from there with Spring/Summer.
+2021-04-15 06:04:16 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @JobHookup4U: Software Architect - perm/Toronto - code w Java/Python/Node or Ruby - algorithms/data structures, greenfield research, des…
+2021-04-15 06:04:17 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @SWOG: Everything you need for next week is right here:
+https://t.co/DSDFgCkSmX See you online!
+#WishWeWereInSanFran
+#WestCoastSushi
+#SW…
+2021-04-15 06:04:17 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @anders_aslund: Leonid Brezhnev blamed all problems of the Soviet economy on the agriculture's dependence on the weather. The joke ran:…
+2021-04-15 06:04:18 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @gakutomo_ch: 【イベント開催決定】
+
+「G-Fes 2021 spring」の開催が決定しました！！
+5月2日(日)ヒューリックホール東京＋配信で開催となります！
+※感染症対策に則った規定の収容人数で座席を準備しております。
+
+チケットやグッズについての情報…
+2021-04-15 06:04:18 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @LloydSteelers: Spring Camp is fast approaching!! Come experience the Lloydminster Steelers U18AAA & U15AA programs May 8-9, 2021. You w…
+2021-04-15 06:04:19 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @jwythoughts: spring cleaning! click each link and interact with/scroll for at least thirty seconds! pls rt to spread!
+
+https://t.co/bh9…
+2021-04-15 06:04:19 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Army097l: Si no subimos el syrean BTS sera el segundo grupo coreano con mas canciones pasados los 300 M y 400M de stream 
+
+DNA -377,536…
+2021-04-15 06:04:20 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @AcumenIns: It’s that time of year again! Spring maintenance to your home or car doesn’t have to be boring! Visit our blog page to learn…
+2021-04-15 06:04:20 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Thanksxu: i've reorganized my room for even cozier spring vibes 🌷✨link below for the process video of how i revamped things~🌤️ https://…
+2021-04-15 06:04:20 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text HIRING: Systems Reliability Engineer - Multicloud / Chicago - https://t.co/yvsumLHn9a #DevOps #Infrastructure #Automation #DevOpsJobs #Engineering #EngineeringJobs #CICD #Recruiting #hiring #techjobs #TechTalent #hiringnow #AWS #EC2 #Java #Linux #S3
+2021-04-15 06:04:20 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @dogeissunbound: Big day for #dogearmy!  
+Here is a special promo code SUNSOUT (15% off) for our summer #doge gear.…
